@@ -7,6 +7,10 @@ public class Run {
         stringBuilder.append("Given");
         
         System.out.println(stringBuilder);
+        
+        String name = "Bushy";
+        
+        System.out.println("Bushy"==name);
 	}
 
 }
