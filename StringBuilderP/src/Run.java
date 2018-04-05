@@ -6,11 +6,16 @@ public class Run {
         stringBuilder.append("-");
         stringBuilder.append("Given");
         
+        char[] names = {'B','U','S','H','Y'};
         System.out.println(stringBuilder);
-        
-        String name = "Bushy";
-        
+       
+        String name = "Bushy";      
         System.out.println("Bushy"==name);
+        boolean isFound = false;
+        if(names.equals(name)) {
+        	isFound = true;	
+        }
+        System.out.println(isFound);
 	}
 
 }
